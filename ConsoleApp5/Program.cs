@@ -10,6 +10,11 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
+            int i = 1;
+            int result = 1;
+            while (i <= mm)
+                result *= i++;
+            return result;
         }
     }
 }
